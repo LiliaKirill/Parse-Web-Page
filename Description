@@ -1,2 +1,10 @@
 This code devoted to basic web-site parsing.
 Python used to collected information for Cian web-site for Kaluga 3 rooms appartments - price,location,description
+
+Basic Algorithm for page scrapping:
+
+1. Take time to inspect code of web-page
+2. request for url
+3. unicode url if required
+4. url.text to beautiful soup
+5. find required data from soup
